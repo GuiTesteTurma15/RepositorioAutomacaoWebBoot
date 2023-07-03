@@ -26,9 +26,9 @@ public class AutomacaoCadastroBootStrap {
 		//comando para pausa
 		//Thread.sleep(5000);
 		//comando para clicar
-		driver.findElement(By.xpath("//*[@id=\"switch-version-select\"]/option[4]")).click();
-		driver.findElement(By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a")).click();
-		driver.findElement(By.id("field-customerName")).sendKeys("Teste");
+		//driver.findElement(By.xpath("//*[@id=\"switch-version-select\"]/option[4]")).click();
+	//	driver.findElement(By.xpath("//*[@id=\"gcrud-search-form\"]/div[1]/div[1]/a")).click();
+	//	driver.findElement(By.id("field-customerName")).sendKeys("Teste");
 		Thread.sleep(5000);
 		
 	}
